@@ -21,7 +21,6 @@ const Home = () => (
       })}
     </div>
   </div>
-   <div><Image src={'../components/logo.png'} alt={alt} width="64" height="64" /></div>
 );
 
 export default Home;
