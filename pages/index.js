@@ -18,6 +18,13 @@ const Home = () => (
           />
         );
       })}
+       <Image
+            src="../components/MS logo.png"
+            width={2300}
+            height={2300}
+            alt="RectangleColored"
+            className={styles.ctaImage}
+          />
     </div>
   </div>
 );
