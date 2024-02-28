@@ -1,5 +1,6 @@
 import SmallCard from '../components/SmallCard';
 import { projectIcons } from '../components/Icons';
+import Image from 'next/image'
 
 import { projects } from '../utils/projectsData';
 
@@ -20,7 +21,7 @@ const Home = () => (
       })}
     </div>
   </div>
-   <div><Image src={../components/logo.png} alt={alt} width="64" height="64" /></div>
+   <div><Image src="../components/logo.png" alt={alt} width="64" height="64" /></div>
 );
 
 export default Home;
