@@ -20,7 +20,7 @@ const Home = () => (
         );
       })}
     </div>
-    <div><Image·src={'/logo.png'}·alt={alt}·width="64"·height="64"·/>;</div>
+    <div><Image·src={'/logo.png'}·width="64"·height="64"·/>;</div>
   </div>
 );
 
