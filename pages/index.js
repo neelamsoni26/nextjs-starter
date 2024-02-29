@@ -1,6 +1,5 @@
 import SmallCard from '../components/SmallCard';
 import { projectIcons } from '../components/Icons';
-import Image from 'next/image';
 
 import { projects } from '../utils/projectsData';
 
