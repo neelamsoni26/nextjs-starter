@@ -4,6 +4,9 @@ import Image from 'next/image'
 
 import { projects } from '../utils/projectsData';
 
+  <Image src={`/logo.png`} alt={alt} width="64" height="64" />
+
+
 const Home = () => (
   <div className="home">
     <h1>What Can I Deploy to Static Apps?</h1>
@@ -20,10 +23,6 @@ const Home = () => (
         );
       })}
     </div>
-      
-  <Image src={`/logo.png`} alt={alt} width="64" height="64" />
-
-
   </div>
 );
 
