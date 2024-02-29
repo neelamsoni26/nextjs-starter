@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePic from '../public/logo.png'
+import profilePic from '../public/logo.png';
  
 export default function Page() {
   return (
@@ -10,7 +10,7 @@ export default function Page() {
       // height={500} automatically provided
       // blurDataURL="data:..." automatically provided
       // placeholder="blur" // Optional blur-up while loading
-    />
+    />;
   )
 }
 
