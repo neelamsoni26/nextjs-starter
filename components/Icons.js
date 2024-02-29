@@ -247,7 +247,7 @@ export function GithubIcon() {
 
 export function msICON() {
   return (
-    <Image src={"/logo.png"} alt="image" width="64" height="64"·/>;
+    <Image src={"/logo.png"} alt="image" width="64" height="64" />;
   );
 }
 
