@@ -258,5 +258,5 @@ export const projectIcons = {
   next: NextIcon,
   nuxt: NuxtIcon,
   gatsby: GatsbyIcon,
-  msICON: msICON,
+  msICON: msICON
 };
