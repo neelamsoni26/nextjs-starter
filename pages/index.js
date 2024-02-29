@@ -1,7 +1,7 @@
 import Image from 'next/image';
  
 export function Avatar({ id, alt }) {
-  return <Image·src={'/logo.png'}/>;
+  return <Image src={'/logo.png'}/>;
 }
  
 export function AvatarOfMe() {
