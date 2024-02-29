@@ -1,6 +1,6 @@
 import Image from 'next/image';
  
-export function Avatar({ id, alt }) {
+export function Avatar({ id }) {
   return <Image.src={'/logo.png'}/>;
 }
  
