@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 export function ReactIcon({ w, h }) {
   return (
@@ -243,6 +245,12 @@ export function GithubIcon() {
   );
 }
 
+export function msICON() {
+  return (
+    <Image src={'/logo.png'} alt="image" width="64" height="64" />
+  );
+}
+
 export const projectIcons = {
   react: ReactIcon,
   vue: VueIcon,
@@ -250,4 +258,5 @@ export const projectIcons = {
   next: NextIcon,
   nuxt: NuxtIcon,
   gatsby: GatsbyIcon,
+  msICON: msICON,
 };
