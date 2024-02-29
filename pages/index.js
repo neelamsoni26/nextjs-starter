@@ -1,7 +1,6 @@
 import SmallCard from '../components/SmallCard';
 import { projectIcons } from '../components/Icons';
 import Image from 'next/image'
-import logoimg from '../components/logo.png'
 
 import { projects } from '../utils/projectsData';
 
@@ -21,6 +20,10 @@ const Home = () => (
         );
       })}
     </div>
+      
+  <Image src={`/logo.png`} alt={alt} width="64" height="64" />
+
+
   </div>
 );
 
