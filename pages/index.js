@@ -1,10 +1,10 @@
 import SmallCard from '../components/SmallCard';
 import { projectIcons } from '../components/Icons';
-import Image from 'next/image'
+import Image from 'next/image';
 
 import { projects } from '../utils/projectsData';
 
-  <Image src={`/logo.png`} alt={alt} width="64" height="64" />;
+  <Image src={`/logo.png`} alt={alt} width="64" height="64" />
 
 
 const Home = () => (
