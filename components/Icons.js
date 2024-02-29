@@ -257,6 +257,5 @@ export const projectIcons = {
   svelte: SvelteIcon,
   next: NextIcon,
   nuxt: NuxtIcon,
-  gatsby: GatsbyIcon,
-  msICON: msICON
+  gatsby: GatsbyIcon
 };
